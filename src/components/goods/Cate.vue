@@ -256,14 +256,4 @@ export default {
 .treeTable {
   margin-top: 20px;
 }
-.el-cascader {
-  width: 100%;
-  height: 80px;
-}
-.el-popper el-cascader__dropdown {
-  top: 320px;
-}
-.el-cascader-menu__wrap el-scrollbar__wrap {
-  height: 200px;
-}
 </style>
