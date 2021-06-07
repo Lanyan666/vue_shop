@@ -29,7 +29,7 @@
           :show-row-hover="false"
         >
           <!-- 是否有效 -->
-          <template slot="isok" scope="scope">
+          <template slot="isok" slot-scope="scope">
             <i
               class="el-icon-success"
               v-if="scope.row.cat_deleted === false"
